@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeply": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
@@ -37,5 +40,5 @@
   "bugs": {
     "url": "https://github.com/leandroyow/landing-page-react-and-bootstrap/issues"
   },
-  "homepage": "https://github.com/leandroyow/landing-page-react-and-bootstrap#readme"
+  "homepage": "http://leandroyow.github.io/landing-page-react-and-bootstrap"
 }
