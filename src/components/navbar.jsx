@@ -58,7 +58,7 @@ export default function Navbar() {
 
       <div>
 
-        <div className="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="menu-offcanvas" aria-labelledby="menu-offcanvas">
+        <div className="offcanvas offcanvas-start" data-bs-scroll="true" tabIndex="-1" id="menu-offcanvas" aria-labelledby="menu-offcanvas">
           <div className="offcanvas-header d-flex flex-column align-items-start ">
             <button type="button" className="btn-close mb-5 pt-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 
