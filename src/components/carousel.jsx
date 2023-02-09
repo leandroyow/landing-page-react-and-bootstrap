@@ -31,7 +31,7 @@ export default function Carousel() {
 
     <div style={wrapperCarouselStyle} id="carousel-wrapper">
 
-      <div id="carouselGallery" class="carousel slide">
+      <div id="carouselGallery" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img style={imgCarouselStyle} src="src\assets\images\image-product-1.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => setCount(count = 1)} className={imgCarouselClass} alt="shoes from the side" />

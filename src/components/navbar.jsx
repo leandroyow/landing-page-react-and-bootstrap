@@ -34,13 +34,13 @@ export default function Navbar() {
               <button className="btn cart-button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i className="bi bi-cart cart-icon position-relative">
                 {quantity !== 0 &&
-                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
                     {quantity}
                   </span>
                     }
                 </i>
               </button>
-              <div style={{ width: 300 }} class="dropdown-menu dropdown-menu-end dropdown-content">
+              <div style={{ width: 300 }} className="dropdown-menu dropdown-menu-end dropdown-content">
 
                 <h4 className="ps-2 fs-6 fw-bold pt-2 pb-1">Cart</h4>
 
@@ -88,14 +88,14 @@ export default function Navbar() {
 
               <button className="btn cart-button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i className="bi bi-cart cart-icon position-relative">{quantity !== 0 &&
-                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
                     {quantity}
                   </span>
                     }
                 </i>
 
               </button>
-              <div style={{ width: 300 }} class="dropdown-menu dropdown-menu-end dropdown-content">
+              <div style={{ width: 300 }} className="dropdown-menu dropdown-menu-end dropdown-content">
 
                 <h4 className="ps-2 fs-6 fw-bold pt-2 pb-1">Cart</h4>
 
