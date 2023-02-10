@@ -3,7 +3,6 @@ import { generalContext } from "../context/context";
 import { useMediaQuery } from "react-responsive"
 import Cart from "./cart"
 
-
 export default function Navbar() {
 
   const is900pxOrBigger = useMediaQuery({ query: '(min-width: 900px)' });

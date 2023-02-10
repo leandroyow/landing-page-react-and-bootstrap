@@ -69,7 +69,7 @@ export default function Carousel() {
             <button onClick={() => {
               let imageModal = document.querySelector("#image-inside-modal");
               if (count >= 2) { imageModal.src = `src/assets/images/image-product-${setCount(count - 1)}.jpg` }
-            }} style={{ height: 46, width: 40, position: "absolute", top: "42%", marginLeft: 11 }} className="carousel-control-prev" type="button">
+            }} style={{ height: 46, width: 40, position: "absolute", top: width >= 900? "42%" : "50%", marginLeft: 11 }} className="carousel-control-prev" type="button">
               <img className="icon-carousel-modal" src="src\assets\images\icon-previous.svg" alt="previous image" />
             </button>
 
@@ -113,7 +113,7 @@ export default function Carousel() {
             <button onClick={() => {
               let imageModal = document.querySelector("#image-inside-modal");
               if (count <= 3) { imageModal.src = `src/assets/images/image-product-${setCount(count + 1)}.jpg` }
-            }} style={{ height: 46, width: 40, position: "absolute", top: "42%", marginRight: 11 }} className="carousel-control-next" type="button" >
+            }} style={{ height: 46, width: 40, position: "absolute", top: width >= 900? "42%" : "50%", marginRight: 11 }} className="carousel-control-next" type="button" >
               <img className="icon-carousel" src="src\assets\images\icon-next.svg" alt="next image" />
             </button>
 
